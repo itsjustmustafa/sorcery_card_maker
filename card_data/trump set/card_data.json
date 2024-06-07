@@ -1,0 +1,385 @@
+{
+    "avatar": [
+        {
+            "name": "Donald Trump",
+            "starting_life": 20,
+            "attack": 1,
+            "text": [
+                "Tap -> Play or draw a site.",
+                "Tap -> Target a nearby minion, for twice",
+                "the mana cost take control of this minion",
+                "this turn."
+            ],
+            "flavour": "I know how to win. I have been winning. I do win. Even in sports."
+        }
+    ],
+    "magic": [
+        {
+            "name": "Build The Wall",
+            "mana": 2,
+            "text": [
+                "Play up to two sites nearby for free, three",
+                "if adjacent to a Border Wall."
+            ]
+        },
+        {
+            "name": "Tiny Hands",
+            "mana": 3,
+            "text": [
+                "If hand size is 2 or fewer, draw 4 cards,",
+                "otherwise draw 2."
+            ]
+        },
+        {
+            "name": "Prime Real Estate",
+            "mana": 4,
+            "text": [
+                "Target a site you own on a prime numbered",
+                "square, it teleports with all units on it",
+                "to a target prime numbered void square."
+            ]
+        },
+        {
+            "name": "Covfefe",
+            "mana": 4,
+            "text": [
+                "Choose any card in play, change it's text",
+                "by a Levenshtein distance of exactly 3."
+            ]
+        },
+        {
+            "name": "I Demand A Recount",
+            "mana": 5,
+            "text": [
+                "Choose a target site with at least as many",
+                "allies as enemies and at lease 2 allies,",
+                "take ownership of that site."
+            ]
+        },
+        {
+            "name": "January 6th",
+            "mana": 6,
+            "text": [
+                "Choose a target site, all nearby allied",
+                "units may move freely to the target to",
+                "gain +1 power for this turn."
+            ]
+        },
+        {
+            "name": "September 11th",
+            "mana": 6,
+            "text": [
+                "Destroy two targeted sites adjacent to",
+                "each other."
+            ]
+        },
+        {
+            "name": "Coronavirus",
+            "mana": 0,
+            "text": [
+                "Must be played as soon as this is drawn.",
+                "Deal 3 damage to each unit on each location",
+                "with 3 or more units."
+            ]
+        }
+    ],
+    "site": [
+        {
+            "name": "Trump Tower",
+            "text": [
+                "Genesis -> Adjacent enemy units take 1 damage."
+            ]
+        },
+        {
+            "name": "Border Wall",
+            "text": [
+                "Enemy units can not enter this site."
+            ]
+        },
+        {
+            "name": "Mar-a-Lago",
+            "text": [
+                "Enemy unit enters this -> Immediately draw a spell"
+            ]
+        },
+        {
+            "name": "Epstein's Island",
+            "text": [
+                "Sacrifice Epstein's Island -> Kill a targeted allied minion",
+                "and heal your avatar by the mana cost of that minion."
+            ]
+        },
+        {
+            "name": "The White House",
+            "text": [
+                "Your avatar cannot enter this site.",
+                "Any allied units on this square have +1 power rating."
+            ]
+        },
+        {
+            "name": "Golf Course",
+            "text": [
+                "Damage your avatar by 1 -> Your avatar can tap to teleport",
+                "this location."
+            ]
+        },
+        {
+            "name": "Four Seasons Total Landscaping",
+            "text": [
+                "Genesis -> Each adjacent unit is pulled to this location."
+            ]
+        }
+    ],
+    "minion": [
+        {
+            "name": "White Supremacist",
+            "mana": 1,
+            "power": 2,
+            "text": [
+                "Genesis -> If summoned on a square with no",
+                "enemy units, draw a spell."
+            ]
+        },
+        {
+            "name": "Patriot",
+            "mana": 1,
+            "power": 2,
+            "text": [
+                "Ranged",
+                "If this shares a square with another",
+                "Patriot, you may convert both into a",
+                "single MAGA Rally."
+            ]
+        },
+        {
+            "name": "MAGA Rally",
+            "mana": 2,
+            "power": 2,
+            "text": [
+                "All other allied units on this square",
+                "have +1 power rating."
+            ]
+        },
+        {
+            "name": "The Apprentice",
+            "mana": 2,
+            "power": 2,
+            "text": [
+                "Spellcaster",
+                "If spells casted kill a unit, gain 1 mana."
+            ]
+        },
+        {
+            "name": "Hulk Hogan",
+            "mana": 2,
+            "power": 3,
+            "text": [
+                "~ Hulkamania is running wild, Brother ~"
+            ]
+        },
+        {
+            "name": "Stormy Daniels",
+            "mana": 2,
+            "power": 6,
+            "text": [
+                "Genesis -> The enemy may choose to give",
+                "their site to player and set Stormy",
+                "Daniel's power to 0."
+            ]
+        },
+        {
+            "name": "Kanye West",
+            "mana": 3,
+            "power": 2,
+            "text": [
+                "Stealth",
+                "Immune to non-lethal damage."
+            ]
+        },
+        {
+            "name": "Donald Trump Junior",
+            "mana": 3,
+            "power": 3,
+            "text": [
+                "Near allied avatar -> Has doubled power",
+                "but cannot deal damage."
+            ]
+        },
+        {
+            "name": "Your uncle.",
+            "mana": 5,
+            "power": 2,
+            "text": [
+                "Moving to a new square -> All other",
+                "occupying units take 2 damage."
+            ]
+        },
+        {
+            "name": "Hillary Clinton",
+            "mana": 5,
+            "power": 3,
+            "text": [
+                "Genesis -> Deal 2 damage to a random unit",
+                "at a target location no closer than 4 steps",
+                "away. If Donald Trump is the unit, no",
+                "damage is dealt."
+            ]
+        },
+        {
+            "name": "Rudy Giuliani",
+            "mana": 5,
+            "power": 6,
+            "text": [
+                "2 Mana -> Choose an adjacent minion,",
+                "disable its card text until the start of",
+                "your next turn."
+            ]
+        },
+        {
+            "name": "Vince McMahon",
+            "mana": 7,
+            "power": 4,
+            "text": [
+                "Genesis -> Random nearby minion changes",
+                "ownership permanently."
+            ]
+        }
+    ],
+    "decks": {
+        "mazzasdeck": {
+            "avatar": "Donald Trump",
+            "spellbook": [
+                "Donald Trump Junior",
+                "Donald Trump Junior",
+                "MAGA Rally",
+                "MAGA Rally",
+                "MAGA Rally",
+                "MAGA Rally",
+                "White Supremacist",
+                "White Supremacist",
+                "White Supremacist",
+                "White Supremacist",
+                "White Supremacist",
+                "White Supremacist",
+                "White Supremacist",
+                "Your uncle.",
+                "Your uncle.",
+                "Your uncle.",
+                "Kanye West",
+                "Kanye West",
+                "The Apprentice",
+                "The Apprentice",
+                "The Apprentice",
+                "Hillary Clinton",
+                "Hillary Clinton",
+                "Patriot",
+                "Patriot",
+                "Patriot",
+                "Patriot",
+                "Rudy Giuliani",
+                "Vince McMahon",
+                "Build The Wall",
+                "Build The Wall",
+                "Build The Wall",
+                "Tiny Hands",
+                "Tiny Hands",
+                "Tiny Hands",
+                "Prime Real Estate",
+                "I Demand A Recount",
+                "I Demand A Recount",
+                "September 11th",
+                "January 6th"
+            ],
+            "atlas": [
+                "Trump Tower",
+                "Trump Tower",
+                "Trump Tower",
+                "Trump Tower",
+                "Epstein's Island",
+                "Epstein's Island",
+                "Epstein's Island",
+                "Epstein's Island",
+                "Mar-a-Lago",
+                "Mar-a-Lago",
+                "Mar-a-Lago",
+                "The White House",
+                "The White House",
+                "Border Wall",
+                "Border Wall",
+                "Border Wall",
+                "Golf Course",
+                "Golf Course",
+                "Golf Course",
+                "Four Seasons Total Landscaping"
+            ]
+        },
+        "littlemorebalanced": {
+            "avatar": "Donald Trump",
+            "spellbook": [
+                "Build The Wall",
+                "Build The Wall",
+                "Build The Wall",
+                "Tiny Hands",
+                "Tiny Hands",
+                "Tiny Hands",
+                "Prime Real Estate",
+                "Prime Real Estate",
+                "Covfefe",
+                "I Demand A Recount",
+                "January 6th",
+                "September 11th",
+                "White Supremacist",
+                "White Supremacist",
+                "White Supremacist",
+                "White Supremacist",
+                "Patriot",
+                "Patriot",
+                "Patriot",
+                "Patriot",
+                "MAGA Rally",
+                "MAGA Rally",
+                "MAGA Rally",
+                "The Apprentice",
+                "The Apprentice",
+                "The Apprentice",
+                "Hulk Hogan",
+                "Hulk Hogan",
+                "Hulk Hogan",
+                "Hulk Hogan",
+                "Stormy Daniels",
+                "Stormy Daniels",
+                "Kanye West",
+                "Kanye West",
+                "Donald Trump Junior",
+                "Your uncle.",
+                "Your uncle.",
+                "Hillary Clinton",
+                "Rudy Giuliani",
+                "Vince McMahon",
+                "Coronavirus"
+            ],
+            "atlas": [
+                "Trump Tower",
+                "Trump Tower",
+                "Trump Tower",
+                "Trump Tower",
+                "Border Wall",
+                "Border Wall",
+                "Border Wall",
+                "Border Wall",
+                "Mar-a-Lago",
+                "Mar-a-Lago",
+                "Mar-a-Lago",
+                "Epstein's Island",
+                "Epstein's Island",
+                "The White House",
+                "The White House",
+                "The White House",
+                "Golf Course",
+                "Golf Course",
+                "Golf Course",
+                "Four Seasons Total Landscaping"
+            ]
+        }
+    }
+}
