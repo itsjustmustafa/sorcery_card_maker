@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 import json
 
-vert_card_dim = Image.open("card_data/sorcerycardmagic.png").size
+vert_card_dim = Image.open("sorcerycardmagic.png").size
 
 set_name = "trump set"
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
             f"{set_dir}/resized_images/{avatar_card_data['name']}.png"
         ).convert("RGBA")
         avatar_rendered = Image.alpha_composite(
-            avatar_bg, Image.open("card_data/sorcerycardavatar.png").convert("RGBA")
+            avatar_bg, Image.open("sorcerycardavatar.png").convert("RGBA")
         )
         draw = ImageDraw.Draw(avatar_rendered)
 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
             f"{set_dir}/resized_images/{magic_card_data['name']}.png"
         ).convert("RGBA")
         card_rendered = Image.alpha_composite(
-            card_bg, Image.open("card_data/sorcerycardmagic.png")
+            card_bg, Image.open("sorcerycardmagic.png")
         ).convert("RGBA")
         draw = ImageDraw.Draw(card_rendered)
         contrastText(
@@ -107,7 +107,7 @@ if __name__ == "__main__":
             f"{set_dir}/resized_images/{minion_card_data['name']}.png"
         ).convert("RGBA")
         card_rendered = Image.alpha_composite(
-            card_bg, Image.open("card_data/sorcerycardminion.png")
+            card_bg, Image.open("sorcerycardminion.png")
         ).convert("RGBA")
         draw = ImageDraw.Draw(card_rendered)
 
@@ -143,7 +143,7 @@ if __name__ == "__main__":
             f"{set_dir}/resized_images/{site_card_data['name']}.png"
         ).convert("RGBA")
         card_rendered = Image.alpha_composite(
-            card_bg, Image.open("card_data/sorcerycardsite.png")
+            card_bg, Image.open("sorcerycardsite.png")
         ).convert("RGBA")
         draw = ImageDraw.Draw(card_rendered)
 

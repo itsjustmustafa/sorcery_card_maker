@@ -4,7 +4,7 @@ import json
 import math
 import itertools
 
-vert_card_dim = Image.open("card_data/sorcerycardmagic.png").size
+vert_card_dim = Image.open("sorcerycardmagic.png").size
 
 set_name = "trump set"
 deck_name = "littlemorebalanced"
@@ -40,8 +40,8 @@ if __name__ == "__main__":
         math.ceil(len(spellbook) / math.floor(math.sqrt(len(spellbook)))),
     ]
 
-    spellcard_size = Image.open("card_data/sorcerycardmagic.png").size
-    sitecard_size = Image.open("card_data/sorcerycardsite.png").size
+    spellcard_size = Image.open("sorcerycardmagic.png").size
+    sitecard_size = Image.open("sorcerycardsite.png").size
 
     atlas_sheet = Image.new(
         "RGBA",

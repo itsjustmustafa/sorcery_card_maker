@@ -2,7 +2,7 @@ from PIL import Image, ImageOps
 import os
 import json
 
-vert_card_dim = Image.open("card_data/sorcerycardmagic.png").size
+vert_card_dim = Image.open("sorcerycardmagic.png").size
 
 set_name = "trump set"
 
