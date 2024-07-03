@@ -1,0 +1,28 @@
+{
+    "avatar": [
+        {
+            "name": "Mario",
+            "starting_life": 20,
+            "attack": 1,
+            "text": "Tap → Draw or play a site\nTap: Jump on a power 1 minion here (kill and take no damage). Continue jumping to kill minions here with consecutively higher power.",
+            "flavor": "Avatar of WAHOOO"
+        },
+        {
+            "name": "Luigi",
+            "starting_life": 20,
+            "attack": 1,
+            "text": "",
+            "flavor": ""
+        },
+        {
+            "name": "Bowser",
+            "starting_life": 20,
+            "attack": 1,
+            "text": "",
+            "flavor": ""
+        }
+    ],
+    "magic": [],
+    "minion": [],
+    "site": []
+}
